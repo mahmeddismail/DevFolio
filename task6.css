@@ -1,0 +1,592 @@
+body {
+    background-color: var(--GrayBackground);
+}
+
+nav {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.content p {
+    font-size: 50px;
+        /* max-width:1200px; */
+}
+
+.content p::after {
+    content: "D|";
+    animation-name: Typing;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Typing {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des|";
+    }
+
+    4% {
+        content: "Desi|";
+    }
+
+    5% {
+        content: "Desig|";
+    }
+
+    6% {
+        content: "Design|";
+    }
+
+    7% {
+        content: "Designe|";
+    }
+
+    12% {
+        content: "Designer|";
+    }
+
+    12.5% {
+        content: "Designe|";
+    }
+
+    13% {
+        content: "Design|";
+    }
+
+    13.5% {
+        content: "Desig|";
+    }
+
+    14% {
+        content: "Desi|";
+    }
+
+    14.5% {
+        content: "Des|";
+    }
+
+    15% {
+        content: "De|";
+    }
+
+    15.5% {
+        content: "D|";
+    }
+
+    16% {
+        content: "|";
+    }
+
+    18% {
+        content: "D|";
+    }
+
+    20% {
+        content: "De|";
+    }
+
+    22% {
+        content: "Dev|";
+    }
+
+    24% {
+        content: "Deve|";
+    }
+
+    26% {
+        content: "Devel|";
+    }
+
+    28% {
+        content: "Develo|";
+    }
+
+    30% {
+        content: "Develop|";
+    }
+
+    32% {
+        content: "Develope|";
+    }
+
+    40% {
+        content: "Developer|";
+    }
+
+    41% {
+        content: "Develope|";
+    }
+
+    42% {
+        content: "Develop|";
+    }
+
+    43% {
+        content: "Develo|";
+    }
+
+    44% {
+        content: "Devel|";
+    }
+
+    45% {
+        content: "Deve|";
+    }
+
+    46% {
+        content: "Dev|";
+    }
+
+    47% {
+        content: "De|";
+    }
+
+    48% {
+        content: "D|";
+    }
+
+    49% {
+        content: "|";
+    }
+
+    51% {
+        content: "F|";
+    }
+
+    53% {
+        content: "Fr|";
+    }
+
+    55% {
+        content: "Fre|";
+    }
+
+    57% {
+        content: "Free|";
+    }
+
+    59% {
+        content: "Freel|";
+    }
+
+    61% {
+        content: "Freela|";
+    }
+
+    63% {
+        content: "Freelan|";
+    }
+
+    65% {
+        content: "Freelanc|";
+    }
+
+    67% {
+        content: "Freelance|";
+    }
+
+    72% {
+        content: "Freelancer|";
+    }
+
+    72.5% {
+        content: "Freelance|";
+    }
+
+    73.5% {
+        content: "Freelanc|";
+    }
+
+    74% {
+        content: "Freelan|";
+    }
+
+    74.5% {
+        content: "Freela|";
+    }
+
+    75% {
+        content: "Freela|";
+    }
+
+    75.5% {
+        content: "Freel|";
+    }
+
+    76% {
+        content: "Free|";
+    }
+
+    76.5% {
+        content: "Fre|";
+    }
+
+    77% {
+        content: "Fr|";
+    }
+
+    77.5% {
+        content: "F|";
+    }
+
+    78% {
+        content: "|";
+    }
+
+    80% {
+        content: "P|";
+    }
+
+    81% {
+        content: "Ph|";
+    }
+
+    82% {
+        content: "Pho|";
+    }
+
+    83% {
+        content: "Phot|";
+    }
+
+    84% {
+        content: "Photo|";
+    }
+
+    85% {
+        content: "Photog|";
+    }
+
+    86% {
+        content: "Photogr|";
+    }
+
+    87% {
+        content: "Photogra|";
+    }
+
+    88% {
+        content: "Photograp|";
+    }
+
+    90% {
+        content: "Photograph|";
+    }
+
+    91% {
+        content: "Photographe|";
+    }
+
+    95% {
+        content: "Photographer|";
+    }
+
+    95.5% {
+        content: "Photographer|";
+    }
+
+    96% {
+        content: "Photograph|";
+    }
+
+    96.5% {
+        content: "Photograp|";
+    }
+
+    97% {
+        content: "Photogra|";
+    }
+
+    97.5% {
+        content: "Photogr|";
+    }
+
+    98% {
+        content: "Photog|";
+    }
+
+    98.25% {
+        content: "Photo|";
+    }
+
+    98.5% {
+        content: "Phot|";
+    }
+
+    98.75% {
+        content: "Pho|";
+    }
+
+    99% {
+        content: "Ph|";
+    }
+
+    99.5% {
+        content: "P|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+
+.title-span {
+    font-weight: 600;
+    color: var(--BlackContent);
+    font-size: 1.1rem;
+}
+
+
+.About-me p {
+    white-space: pre-line;
+}
+
+.About-me h2 {
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.About-me h2::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    bottom: -10;
+    left: 0;
+    background-color: var(--BlueColor);
+}
+
+/* allSections */
+
+.title-h {
+    color: var(--BlackContent);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-p {
+    /* background-color: aqua; */
+    color: var(--GrayContent);
+    position: relative;
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: var(--BlueColor);
+    margin: 0 auto;
+}
+
+.icons{
+    width: 32px;
+    height: 32px;
+    border: 10px solid var(--BlueColor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 55px 55px;
+    margin: 10px auto;
+}
+
+.icons i{
+    font-size: 50px;
+}
+
+.icons.service:hover{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-color:var(--BlueColor);
+    color: #fff;
+}
+
+.fixed-section{
+    background-image: linear-gradient(to right,rgba(0,120,255,0.5),rgba(0,120,255,0.5)), url(Images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px;
+}
+
+
+.fixed-section .icons{
+    border: 7px solid rgba(255, 255, 255, 0.5);
+    padding: 40px 40px;
+    margin: auto;
+}
+
+.fixed-section span{
+    font-size: 30px;
+}
+
+.fixed-section i{
+    font-size: 30px;
+}
+
+.work-img{
+    overflow: hidden;
+}
+
+.work-img img{
+    transition: transform;
+    transition-duration: 1s;
+}
+
+.work-img:hover img{
+    transform: scale(1.3);
+}
+
+.work .icons{
+    padding: 18px 18px;
+    border: 3px solid var(--BlueColor);
+    color: var(--BlueColor);
+}
+
+
+.fixed-section.MyCarousel{
+    background-image: linear-gradient(to right,rgba(0,120,255,0.6),rgba(0,120,255,0.6)), url(Images/overlay-bg.jpg);
+    padding: 120px 0px !important;
+    position: relative;
+
+}
+
+.carousel-indicators{
+    position: static;
+    position: absolute;
+    bottom: 100px;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+
+.card-bottom-img img{
+    width: 20%;
+}
+
+/* .cardy{
+    background-color: yellow !important;
+    color: black !important; 
+    bottom: 120px;
+    left:0;
+    text-align: center;
+} */
+
+.card-body{
+    position: relative;
+}
+
+
+.card-body .travel{
+    position: absolute;
+    /* bottom: 130px;*/
+    left: 0px; 
+    transform: translatey(-100%);
+    /* transform: translatex(100%); */
+    /* margin: auto; */
+}
+
+.card-body h5
+,.card-bottom-img span
+{
+    transition: color 1s;
+}
+
+.card-body:hover h5
+,.card-bottom-img:hover span{
+    color: var(--BlueColor);
+}
+
+.cardss{
+    padding-bottom: 40px;
+}
+
+
+
+
+.contact .line-mf{
+    width: 100px;
+    height: 3px;
+    margin-left:5px ;
+}
+.contact-button{
+    background-color: var(--BlueColor);
+}
+
+
+
+.contact-content p{
+    color: var(--GrayContent);
+    line-height: 2.5rem;
+    font-size: 22px;
+}
+
+
+.contact-icons-content i{
+    color: var(--BlueColor);
+    font-size: 20px;
+}
+
+.contact-get-in-touch-section span{
+    font-size: 15px;
+}
+.contact-icon{
+    width: 35% !important;
+}
+.contact-icon .icons{
+    width: 22px;
+    height: 22px;
+    padding: 15px 15px;
+    border: 3px solid var(--BlueColor);
+
+}
+
+.contact-icon .icons:hover{
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    background-color:var(--BlueColor);
+    color: #fff;
+}
+
+.contact-icon .icons i {
+    font-size: 16px;
+}
+
+
+
+
