@@ -580,11 +580,19 @@ header {
 
 }
 
+.contact-icon .icons a{
+    color: black;
+
+}
 .contact-icon .icons:hover{
     border: 3px solid rgba(255, 255, 255, 0.5);
     background-color:var(--BlueColor);
     color: #fff;
 }
+.contact-icon .icons:hover a {
+    color: white;
+}
+
 
 .contact-icon .icons i {
     font-size: 16px;
@@ -599,4 +607,9 @@ header {
 
 .myIconNum{
     padding: 8px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+    text-decoration: none;
 }
