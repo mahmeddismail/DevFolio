@@ -558,7 +558,10 @@ header {
 }
 
 
-.contact-icons-content i{
+.myIconLoc i,
+.myIconEnv i,
+.myIconNum i
+{
     color: var(--BlueColor);
     font-size: 20px;
 }
@@ -586,7 +589,14 @@ header {
 .contact-icon .icons i {
     font-size: 16px;
 }
+.myIconLoc{
+    padding: 7px
+}
 
+.myIconEnv{
+    padding: 6px;
+}
 
-
-
+.myIconNum{
+    padding: 8px;
+}
